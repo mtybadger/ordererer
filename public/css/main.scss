@@ -1,0 +1,153 @@
+body {
+  background-color: black;
+  //font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  font-family: 'Raleway', sans-serif;
+}
+
+.title {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1em;
+  width: 50%;
+}
+
+h1 {
+  font-size: 6vw;
+  background: -webkit-linear-gradient(rgb(255, 174, 0), rgb(255, 72, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin-bottom: -1vw;
+  position: relative;
+  @media(max-width: 578px) {
+    font-size: 7vw;
+  }
+}
+
+.disabled {
+  color: gray !important;
+  opacity: 0.2 !important;
+}
+
+  /*&:before{
+    content:'';
+    background: url(../images/path.png) no-repeat center center;
+    background-size: cover;
+    image-rendering: pixelated;
+    display: inline-block;
+    position:absolute;
+    font-size: 60px;
+    left: 25%;
+    z-index: -1;
+    width: 50%;
+    height: 100%;
+  }*/
+
+hr {
+  height: 0px;
+  background-color: white;
+  border: 0;
+  margin-bottom: 2em;
+  width: 75%;
+}
+
+h2 {
+  font-size: 2em;
+  background: -webkit-linear-gradient(rgb(255, 72, 0), rgb(255, 0, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  @media(max-width: 578px) {
+    font-size: 4vw;
+  }
+}
+
+p {
+  color: white;
+  margin-left: 1em;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  margin-bottom: 1em;
+}
+
+input.submit{
+
+}
+
+@font-face {
+  font-family: 'Comic Sans MS';
+  src: url("../comicz.ttf");
+}
+
+#title1{
+  @media(max-width: 578px) {
+    font-size: 4vw;
+  }
+  font-size: 1.5em;
+  background: -webkit-linear-gradient(rgb(193, 248, 255), rgb(217, 92, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.buttons {
+  margin: auto;
+  width: 60%;
+  height: 100px;
+  position: relative;
+  user-select: none;
+}
+
+#uploadbutton {
+  margin: auto;
+  width: 170px;
+  text-align: center;
+  height: 1.25em;
+  user-select: none;
+  background-color: white;
+  font-size: 1.25em;
+  font-weight: 700;
+}
+
+#button1{
+  top: 0;
+  left: 0;
+}
+
+#button2{
+  top: 60%;
+  left: 20%;
+}
+
+#button3{
+  top: 30%;
+  left: 40%;
+}
+
+#button4{
+  top: 80%;
+  left: 65%;
+}
+
+#button5{
+  top: 40%;
+  right: 0;
+}
+
+.btn {
+  position: absolute;
+  color: white;
+  font-size: 1.25em;
+  font-weight: 700;
+}
+
+
+.selected {
+  text-shadow: -3px -3px 0 magenta, 3px -3px 0 magenta, -3px 3px 0 magenta, 3px 3px 0 magenta;
+}
